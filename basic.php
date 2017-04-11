@@ -117,13 +117,15 @@
 
     echo '<h3>10. Function</h3>';
 
-    function tes(){ //function digunakan untuk wadah menjalankan berbagai kode;
+    function tes() //function digunakan untuk wadah menjalankan berbagai kode;
+    { 
         echo 'tes';
     }
 
     tes(); //function dapat langsung digunakan dengan mengetikkan nama function nya dan kurung;
 
-    function tes2($x){ //kita juga dapat memasukkan beberapa parameter di dalam function
+    function tes2($x) //kita juga dapat memasukkan beberapa parameter di dalam function
+    { 
         echo $x; //yang nantinya akan digunakan di dalam function itu sendiri
     }
 
